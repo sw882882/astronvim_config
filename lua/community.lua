@@ -4,7 +4,7 @@
 
 ---@type LazySpec
 return {
-	"AstroNvim/astrocommunity",
+  "AstroNvim/astrocommunity",
 	{ import = "astrocommunity.pack.lua" },
 	{ import = "astrocommunity.pack.python-ruff" },
 	{ import = "astrocommunity.pack.json" },
@@ -17,6 +17,4 @@ return {
 	{ import = "astrocommunity.git.gist-nvim" },
 	{ import = "astrocommunity.workflow.bad-practices-nvim" },
 	{ import = "astrocommunity.completion.copilot-lua-cmp" },
-
-	-- import/override with your plugins folder
 }
